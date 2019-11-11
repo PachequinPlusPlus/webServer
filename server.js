@@ -52,7 +52,8 @@ app.post("/api/postStudent", jsonParser, (req, res) => {
         lastName,
         id
     }
-
+    
+    console.log(newStudent);
 
     studentList.post(newStudent)
         .then ( student => {
