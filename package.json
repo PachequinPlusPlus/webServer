@@ -1,0 +1,22 @@
+{
+  "name": "makako",
+  "version": "1.0.0",
+  "description": "soppa",
+  "main": "server.js",
+  "scripts": {
+    "test": "test_makako"
+  },
+  "keywords": [
+    "umma",
+    "delicia",
+    "kkk"
+  ],
+  "author": "sam28",
+  "license": "ISC",
+  "dependencies": {
+    "cat-me": "^1.0.3",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.7",
+    "morgan": "^1.9.1"
+  }
+}
