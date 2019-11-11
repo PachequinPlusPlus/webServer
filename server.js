@@ -53,7 +53,6 @@ app.post("/api/postStudent", jsonParser, (req, res) => {
         id
     }
 
-    studentList.
 
     studentList.post(newStudent)
         .then ( student => {
