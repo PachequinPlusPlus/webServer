@@ -7,7 +7,7 @@ function main(){
         data : JSON.stringify(obj),
         success : (json) =>{
             json.forEach((item)=>{
-                $("#studentList").append(`<li>${item.name}</li>`);
+                $("#studentList").append(`<li>${item.firstName}</li>`);
             });
         },
         error : (err) =>{
